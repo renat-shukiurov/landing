@@ -12,7 +12,7 @@
                 <a href="#" class="header__nav-item link">Contact</a>
             </nav>
             <form action="#" class="header__form subform">
-                <label>
+                <label class="header__label">
                     <input placeholder="Your Email" type="text" name="email" class="header__email">
                 </label>
                 <button type="submit" class="header__button btn">Subscribe</button>

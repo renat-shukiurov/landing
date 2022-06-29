@@ -156,6 +156,9 @@ body {
   align-items: center;
   position: relative;
 }
+.header__label {
+  position: relative;
+}
 .header__email {
   max-width: 273px;
   padding: 19px 38px;
@@ -213,6 +216,9 @@ body {
   }
   .header__menu_active ~ .header__menu-hamburger .header__menu-close {
     display: block;
+  }
+  .header .error-message {
+    bottom: -5px;
   }
   .header__menu_active {
     display: flex;

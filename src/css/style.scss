@@ -192,6 +192,10 @@ body {
     position: relative;
   }
 
+  &__label {
+    position: relative;
+  }
+
   &__email {
     max-width: 273px;
     padding: 19px 38px;
@@ -260,6 +264,10 @@ body {
       .header__menu-close {
         display: block;
       }
+    }
+
+    .error-message {
+      bottom: -5px;
     }
 
     &__menu_active {
