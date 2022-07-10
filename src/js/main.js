@@ -95,8 +95,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     const contactForm = document.querySelector('form.contact__form');
     contactForm.addEventListener('submit', contact);
-    contactForm.user_name.addEventListener('keypress', deleteError);
-    contactForm.user_email.addEventListener('keypress', deleteError);
-    contactForm.user_message.addEventListener('keypress', deleteError);
+    const fields = contactForm.querySelectorAll('input, textarea');
+    Array.from(fields).forEach((item) => {
+        item.addEventListener('keypress', deleteError);
+    })
 
 });
